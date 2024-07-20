@@ -1,0 +1,40 @@
+.home-page-container {
+  font-family: 'Arial, sans-serif';
+  color: #333;
+  padding: 20px;
+  width: auto;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 60px); /* Ajusta según la altura de tu NavBar */
+  box-sizing: border-box;
+  padding-top: 80px; /* Añade un padding superior para evitar el solapamiento */
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #d06d7a; /* Tono rosado moderno y femenino */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .home-page-container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
