@@ -36,7 +36,8 @@ const AgendarCitas = () => {
   };
 
   return (
-    <div className="agendar-citas-container">
+    <div className='div-container'>
+        <div className="agendar-citas-container">
       <h2>Agendar Cita</h2>
       <form onSubmit={handleSubmit} className="agendar-citas-form">
         <div className="form-group">
@@ -88,6 +89,7 @@ const AgendarCitas = () => {
         </div>
         <button type="submit" className="submit-button">Enviar</button>
       </form>
+    </div>
     </div>
   );
 };

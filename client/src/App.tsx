@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/tratamientos" element={<Tratamientos />} />
         <Route path="/agendar" element={<AgendarCitas />} />
+        <Route path="/contactanos" element={<AgendarCitas />} />
       </Routes>
     </div>
   );
