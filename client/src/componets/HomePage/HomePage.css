@@ -1,6 +1,6 @@
 /* General Styles for the Container */
 .home-page-container {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
   color: #333;
   padding: 3%;
   width: 100%; /* Asegura que el contenedor ocupe el ancho total hasta el max-width */
@@ -34,6 +34,11 @@ p {
   max-width: 800px; /* Limita el ancho de los párrafos para mejorar la legibilidad */
 }
 
+.div-container{
+  background-color: #f8e2e2;
+  padding-top: 85px;
+}
+
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   .home-page-container {
@@ -49,3 +54,4 @@ p {
     font-size: 1em;
   }
 }
+

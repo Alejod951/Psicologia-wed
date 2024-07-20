@@ -3,7 +3,9 @@ import './HomePage.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="home-page-container">
+
+    <div className='div-container'>
+      <div className="home-page-container">
       <h1 className="title">Quién soy</h1>
       <p>
         Soy Valentina Garces Marquez, psicóloga clínica con experiencia en el campo de la psicoterapia. Mi objetivo es ayudarte a superar los desafíos emocionales y mejorar tu calidad de vida.
@@ -25,6 +27,8 @@ const HomePage: React.FC = () => {
         En ocasiones, las personas pueden sentirse reticentes a buscar ayuda psicológica por diversas razones. Esto puede deberse a una serie de factores, como el temor al juicio de los demás o la creencia errónea de que los problemas emocionales se resolverán por sí solos con el tiempo. Algunos también pueden experimentar vergüenza o estigma asociado con la búsqueda de ayuda psicológica, lo que puede dificultar el proceso de búsqueda de apoyo. Además, la preocupación por el costo o la accesibilidad de la terapia, así como la resistencia a abrirse emocionalmente o enfrentar el dolor emocional, también pueden ser barreras significativas.
       </p>
     </div>
+    </div>
+    
   );
 }
 
