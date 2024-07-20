@@ -1,6 +1,6 @@
 /* Estilos para el nav bar en pantallas grandes */
 .navbar {
-    background-color: #333;
+    background-color: #e39e9e;
     color: #fff;
     padding: 10px 0;
     position: fixed;
@@ -8,6 +8,7 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -23,6 +24,7 @@
     font-size: 24px;
     text-decoration: none;
     color: #fff;
+    font-family: 'Dancing Script', cursive; /* Fuente cursiva elegante */
 }
 
 .nav-links {
@@ -40,10 +42,12 @@
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    transition: transform 0.3s;
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+    transform: scale(1.3);
+    color:#fff;
 }
 
 /* Estilos para el botón del menú en pantallas pequeñas */
@@ -56,6 +60,13 @@
     cursor: pointer;
 }
 
+.logo{
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+
+}
+
 /* Estilos para el menú lateral en pantallas pequeñas */
 @media (max-width: 768px) {
     .nav-links {
@@ -64,14 +75,19 @@
         top: 50px;
         left: 0;
         width: 100%;
-        background-color: #333;
+        background-color: #e39e9e;
         flex-direction: column;
         align-items: center;
         z-index: 1001;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: transform 0.3s, opacity 0.3s;
     }
 
     .nav-links.active {
         display: flex;
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .nav-links li {

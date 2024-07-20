@@ -11,11 +11,13 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="container">
-                <a href="/" className="logo">Cuida tu mente</a>
+                <a href="/" className="logo">
+                <img className='logo' src="../public/Img/logo_.png" alt="Cuida tu mente" />
+                </a>
                 <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
                     <li><a href="tratamientos">Tratamientos</a></li>
                     <li><a href="agendar">Agendar tu cita</a></li>
-                    <li><a href="contactanos">Contactanos</a></li>
+                    {/* <li><a href="contactanos">Contactanos</a></li> */}
                 </ul>
                 <button className="menu-toggle" onClick={toggleMenu}>☰</button>
             </div>
