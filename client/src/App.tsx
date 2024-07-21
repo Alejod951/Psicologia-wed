@@ -12,9 +12,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="https://valentina-eight.vercel.app/tratamientos" element={<Tratamientos />} />
-        <Route path="/agendar" element={<AgendarCitas />} />
-        <Route path="/contactanos" element={<AgendarCitas />} />
+        <Route path="tratamientos" element={<Tratamientos />} />
+        <Route path="agendar" element={<AgendarCitas />} />
+        <Route path="contactanos" element={<AgendarCitas />} />
       </Routes>
     </div>
   );
